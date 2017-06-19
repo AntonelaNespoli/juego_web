@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="unicode">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Permanent+Marker" rel="stylesheet">
+        <!-- font-family: 'Permanent Marker', cursive;
+        font-family: 'Coming Soon', cursive; -->
+        <title>Piedra, papel, tijeras, lagarto o spock</title>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="contenedor-creditos col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <i class="fa fa-money fa-2x">
+                        <span class="creditos">100</span>
+                    </i>
+                    <button class= "btn btn-success" type="button" onclick="alert('¿Te quedaste sin creditos? Ups! \n Próximamente podras comprar creditos con tarjeta!')"><i class="fa fa-credit-card-alt fa-2x"></i> Comprar creditos <i class="fa fa-credit-card-alt fa-2x"></i></button>
+                </div>
+            </div>
+        </header>
+        <article class="container">
+            <section class="row">
+                <article class="contenedor-btn col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <button class="btn btn-primary" id="1" type="send"><i class="fa fa-hand-rock-o fa-5x"></i><span data-translate>Piedra</span></button>
+                    <button class="btn btn-primary" id="2" type="send"><i class="fa fa-hand-paper-o fa-5x"></i><span data-translate>Papel</span></button>
+                    <button class="btn btn-primary" id="3" type="send"><i class="fa fa-hand-scissors-o fa-5x"></i><span data-translate>Tijeras</span></button>
+                    <button class="btn btn-primary" id="4" type="send"><i class="fa fa-hand-lizard-o fa-5x"></i><span data-translate>Lagarto</span></button>
+                    <button class="btn btn-primary" id="5" type="send"><i class="fa fa-hand-spock-o fa-5x"></i><span data-translate>Spock</span></button>
+                </article>
+            </section>
+            <section class="row">
+                <div class="row hidden-md hidden-lg tabla-infoScroll">
+                    <i class="col-xs-offset-1 col-xs-3 fa fa-hand-o-left fa-2x"></i>
+                    <span class="col-xs-4" data-translate>Deslice para ver más</span>
+                    <i class="col-xs-3 fa fa-hand-o-right fa-2x"></i>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 table-responsive contenedor-tabla">
+                    <table class="table tabla-partidas-ganadas">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td data-translate>N° de Juego</td>
+                                <td data-translate>Partidas ganadas</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-translate>Totales</td>
+                                <td class="total-juego"></td>
+                                <td class="total-usuario"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </article>
+            
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

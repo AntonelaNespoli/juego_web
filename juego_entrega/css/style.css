@@ -1,0 +1,36 @@
+body{
+    background-image: url(../img/fondoestrellado.jpg);
+    font-family: 'Permanent Marker', cursive;
+    color: beige;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.contenedor-creditos{
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+.contenedor-creditos i {
+    vertical-align: middle;
+}
+.contenedor-creditos button {
+    color
+}
+.contenedor-btn{
+    margin: 40px 0 40px 0;
+    text-align: center;
+}
+.contenedor-btn .btn{
+    margin: 5px 5px 5px 5px;
+    display: inline-grid;
+    font-weight: 400;
+}
+
+.contenedor-tabla{
+    text-align: center;
+}
+
+.tabla-infoScroll {
+    text-align: center;
+    font-size: 3vw;
+}
